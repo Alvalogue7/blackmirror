@@ -111,10 +111,8 @@ border-radius: 5%;
 } */
 
 @media only screen and (width<700px) {
-        #wrapper {width: 95%}
+        #wrapper {width: 90%}
         #hero {background-image: url(../img/heromovil.jpg);
-                height: 95vh;
-                background-size: cover ;
-                background-position: center ;
-                position: relative;}}
+                background-size: 100% 100% ;
+                background-position: center ;}}
 
