@@ -5,26 +5,106 @@
 /*               comments: class proyect 2023-34     */
 /*****************************************************/
 
-/* cuando quiero usar una tipografía y asegurarme de que se verá correctamente, suministro tambien con la pagina el archivo de la fuente que sera .ttf o .otf */
-/* 1- ahora, enlazo el archivos desacargado */
-/* 2- utilizar el nombre de la font-family donde quiere usarlo */
-
-@font-face {    /* esto no es un selector, es un enlace */
-    font-family: blackmirror;
-    src: url(../font/FontsFree-Net-Proxima-Nova-Bold.otf);
+@font-face {    
+    font-family: titulos;
+    
+    src: url(../font/AgencyFB\ Black\ Regular.otf);
 }
 
 @font-face {
     font-family: textonormal;
-    src: url(../font/OpenSans-Regular.ttf);
+    src: url(../font/bayformance.otf);
 }
 
-body{margin:0;padding:0; /* para desactivar el espacio de separación por defecto */
-    background-color: #202020;
-    color: white;
-    font-family: textonormal;}
+*{box-sizing: border-box;} 
 
-#wrapper {background-color: #808080;
-        width:80%; /* ancho fijado al 80% */
-        margin: auto;} /* centrado automatico */
+body{margin:0;
+        padding:0;
+        background-image: url(../img/background.jpg);
+        color: #BEBCBA;
+        font-family: textonormal;}
+
+h2 {font-family: titulos;}
+
+#wrapper {background-color: #0D0F0F;
+        width:80%; 
+        margin: auto;} 
+
+#navbar {background-color: #101515;
+        padding: 5px;
+        }
+
+#imgnavbar {
+        position: relative;
+        top: 0%;
+        left:0%;
+}
+
+
+/* *************************HERO SECTION************************ */
+
+#hero {background-image: url(../img/nueva.jpg);
+                        height: 95vh;
+                        background-size: cover ;
+                        background-position: center ;
+                        position: relative;} 
+
+#hero button {background-color: #F15E00;
+        color: #BEBCBA;
+        font-weight: bold;
+        font-family: titulos;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 10px;
+        position: absolute; 
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%,-50%);} 
+
+/* #hero p {position: absolute;
+        font-size: 4.5em;
+        top: 60%;
+        left: 67%;} */
+
+
+
+#intro {
+        background-image: url(../img/72.png);
+        border: 2px solid #5D605C;
+        border-radius: 5%;
+        padding: 1%;
+        margin: 15px;
+}
+#history {
+        background-image: url(../img/72.png);
+border: 2px solid #5D605C;
+border-radius: 5%;
+        padding: 1%;
+        margin: 15px;
+}
+#maps {
+        background-image: url(../img/72.png);
+border: 2px solid #5D605C;
+border-radius: 5%;
+        padding: 1%;
+        margin: 15px;
+}
+#eggs {
+        background-image: url(../img/72.png);
+border: 2px solid #5D605C;
+border-radius: 5%;
+        padding: 1%;
+        margin: 15px;
+}
+#footer {
+        background-color: #101515;
+        padding: 1%;}
+
+
+/******************* RESPONSIVE *******************/
+
+@media only screen and (width<1000px) {
+        #hero {background-image: url(../img/nueva.jpg);}
+    
+}
 
