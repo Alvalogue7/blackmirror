@@ -103,15 +103,16 @@ border-radius: 5%;
 
 /******************* RESPONSIVE *******************/
 
-@media only screen and (width<1000px) {
+/* @media only screen and (width<1000px) {
         #wrapper {width: 95%}
         #hero {background-image: url(../img/nueva.jpg);
                 width: 80%;}
     
-}
+} */
 
 @media only screen and (width<700px) {
-        #hero {background-image: url(../img/nueva.jpg);}
+        #wrapper {width: 95%}
+        #hero {background-image: url(../img/heromovil.jpg);}
     
 }
 
