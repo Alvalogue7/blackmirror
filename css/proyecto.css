@@ -112,7 +112,9 @@ border-radius: 5%;
 
 @media only screen and (width<700px) {
         #wrapper {width: 95%}
-        #hero {background-image: url(../img/heromovil.jpg);}
-    
-}
+        #hero {background-image: url(../img/nueva.jpg);
+                height: 75vh;
+                background-size: cover ;
+                background-position: center ;
+                position: relative;}}
 
