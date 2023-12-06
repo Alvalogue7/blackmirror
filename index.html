@@ -6,37 +6,106 @@
     <title>ZombiesWiki</title>
     <link rel="stylesheet" href="./css/proyecto.css">
     <link rel="short icon" href="./img/klipartz.com.png" type="image/x-ixon">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
     <div id="wrapper">
-    <div id="navbar"><nav>
-        <img id="imgnavbar" src="./img/navbar.png" alt="" width="60">
-        <!-- <h1>ZOMBIEWIKI</h1> -->
-        </nav>
+    
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active">Home</a>
+                <a href="#history">History</a>
+                <a href="#maps">Maps</a>
+                <a href="#drinks">Drinks</a>
+                <a href="#gallery">Gallery</a>
+                
+                <!-- javascripst:void(0) desactiva el comportameinto default del vínculo -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav><!-- obligatoria-->
+        <!-- arrow up posicionada en la esquina inferior derecha -->
+        
+        <section id="hero">
+            <h2>WHAT IS ZOMBIEWIKI?</h2>
+            <!-- <p> A wiki about the zombie game mode of Call of Duty Black Ops II. </p> -->
+            <button id="hero button">ARE YOU READY?</button>
+        </section>
+        
+    
+        <section id="history">
+            <h2>HISTORY</h2>
+            <hr>
+            <div class="grid-2">
+                <div class="col-2">
+                    <p>Know the whole story, from its beginnings and creation. All about the fictional universe of zombies created by the Call of Duty games saga. </p>
+                </div>
+                <div class="col-2">
+                    <div class="container">
+                        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/pIPLIYQUfwQ?si=hrFWWHeEQfjRyKet" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+                
+            
+            
+        </section>
+
+        <section id="maps">
+            <h2>MAPS</h2>
+            <hr>
+            <div class="grid-4">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./img/DieRise.jpg" alt="">
+                        <h3>Die Rise</h3>
+                        <p>Watch your step! Fight for survival atop the towers of doom, where dizzying heights and relentless undead make a deadly combination. Ready? </p>
+                        <button class="button">Die Rise</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./img/MoboftheDead.jpg" alt="">
+                        <h3>Mob of the Dead</h3>
+                        <p>Battle the undead as you attempt to break free from the physical and metaphorical incarceration of Alcatraz Prison.</p>
+                        <br>
+                        <button class="button">Mob of the Dead</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./img/Buried.jpg" alt="">
+                        <h3>Buried</h3>
+                        <p>Are you afraid of dark, tight spaces? Confront your deepest fears as you battle the undead in an underground obstacle course of mental challenges.</p>
+                        <button class="button">More info</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./img/Origins.jpg" alt="">
+                        <h3>Origins</h3>
+                        <p>Witness the origins of Group 935, as an ancient evil is unleashed upon the battlefields of World War I.</p>
+                        <br>
+                        <button class="button">More info</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section id="drinks">
+            <h2>DRINKS</h2>
+        </section>
+    <section id="gallery">
+            <h2>GALLERY</h2>
+        </section>
+        <footer id="footer">
+            <h2>FOOTER</h2>
+        </footer>
     </div>
-    <section id="hero">
-        <!-- <p>WIKI</p> -->
-        <button id="hero button">ARE YOU READY?</button>
-    </section> 
-    <section id="intro">
-        <h2>WHAT IS ZOMBIEWIKI?</h2>
-        <p>This page will be a wiki about the zombie game mode of Call of Duty Black Ops II. It will contain all the information, curiosities, easter eggs... about the different maps and game modes.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui ullam. Quae veritatis, esse alias qui itaque ipsa quos voluptas dolore nobis labore ipsum necessitatibus deleniti sequi numquam voluptate rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit qui esse cumque asperiores mollitia repellendus deleniti velit! Consectetur, omnis eligendi similique nostrum modi, dolorem soluta, perspiciatis quia.</p>
-    </section>
-    <section id="history">
-        <h2>HISTORY</h2>
-        <p>Story about the origin of the zombies according to the game and the history of each of the locations.</p>
-    </section>
-    <section id="maps">
-        <h2>MAPS</h2>
-        <p>Section for the different maps in the game with their locations and most important curiosities.</p>
-    </section>
-    <section id="eggs">
-        <h2>EASTER EGGS</h2>
-    </section>
-    <footer id="footer">
-        <h2>FOOTER</h2>
-    </footer>
-    </div>
+    <!-- enlace al archivo de todos los js del website -->
+    <script src="./js/proyecto.js"></script>
 </body>
 </html>
