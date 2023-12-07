@@ -180,13 +180,14 @@ nav {position:sticky;
         text-align: center;
         }
 
+section .fa-arrow-circle-right{font-size: 4em;}
 
 
 .container {
         position: relative;
         overflow: hidden;
         width: 100%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        padding-top: 56.25%; 
       }
       
       /* Then style the iframe to fit in the container div with full height and width */
@@ -222,12 +223,9 @@ nav {position:sticky;
         position: relative;
         cursor: pointer;
         padding: 2%;
-        
-        
         opacity: 0.85;
-text-align: center;
-
-border-radius: 4px;}
+        text-align: center;
+        border-radius: 4px;}
 
 .card:hover {opacity: 1;}
 
@@ -244,8 +242,112 @@ border-radius: 4px;}
         transform: translate(-50%, -50%);
 }
 
+/***************************************************************************/
+/*                       DRINKS SECTION (GRID DE 5)                        */
+/***************************************************************************/
+
+#drinks {
+        padding: 1%;
+        margin: 15px;}
+
+.grid-5 {display: grid;
+        grid-template-columns: 50% 50%;} /*** MOBILE FIRST ***/
+
+.col-5 {padding: 10%;}
 
 
+/***************************************************************************/
+/*                        Card Style (Inside Grid-5)                       */
+/***************************************************************************/
+
+.flip-card {
+        background-color: transparent;
+        width: 95%;
+        height: 35vh;
+        perspective: 1000px;}
+
+.flip-card-inner {position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;}
+
+.flip-card:hover .flip-card-inner {transform: rotateY(180deg);}
+
+.flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;}
+
+.flip-card-front {background-color: #1B1B1B;
+        color: black;}
+
+.flip-card-back {background-color: #2D1918;
+        color: #BEBCBA;
+        border: solid 1px #444;
+        border-radius: 4px;
+        transform: rotateY(180deg);}
+
+.flip-card-front img {width: 100%;
+        height: 100%;
+        opacity: 1;
+        text-align: center}
+
+/***************************************************************************/
+/*                                 FOOTER                              */
+/***************************************************************************/
+
+footer .fa-facebook {background-color: #3B5998;}
+
+footer .fa-twitter {background-color: #55ACEE;}
+
+footer .fa-whatsapp {background-color: #25D366;}
+
+/* The Modal (background) */
+.modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 10%;
+      top: 0;
+      width: 80%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      color:  black;
+}
+    
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* The Close Button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    #myBtn { cursor: pointer;
+
+    }
 
 /***************************************************************************/
 /*                                 RESPONSIVE                              */
@@ -254,6 +356,7 @@ border-radius: 4px;}
 @media only screen and (width>650px){ /*** TABLET ***/
         #wrapper {width: 95%;}
         .grid-4 {grid-template-columns: 50% 50%;}
+        .grid-5 {grid-template-columns: 25% 25% 25% 25%;}
 } 
 
   @media only screen and (width>900px){ /*** COMPUTER ***/
@@ -261,6 +364,7 @@ border-radius: 4px;}
         .grid-2 {grid-template-columns:50% 50%;}
         .grid-3d {grid-template-columns: 25% 25% 50%;}
         .grid-4 {grid-template-columns: 25% 25% 25% 25%;}
+        .grid-5 {grid-template-columns: 20% 20% 20% 20% 20%;}
 }
 
 /******************* reaponaive topnav (w3schools) ******************/
