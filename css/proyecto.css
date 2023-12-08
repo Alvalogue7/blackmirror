@@ -1,9 +1,9 @@
-/*****************************************************/
-/*               Style sheet                         */
-/*               author: Álvaro López                */
-/*               version: 2.0                        */
-/*               comments: class proyect 2023-34     */
-/*****************************************************/
+/***************************************************************************/
+/*                          Style sheet                                    */
+/*                          author: Álvaro López                           */
+/*                          version: 2.0                                   */
+/*                          comments: class proyect 2023-34                */
+/***************************************************************************/
 
 @font-face {font-family: titulos;
         src: url(../font/AgencyFB\ Black\ Regular.otf);}
@@ -27,6 +27,8 @@ h3 {font-family: titulos;}
 #wrapper {background-color: #1B1B1B;
         width:100%; 
         margin: auto;}
+
+/****************** Button Style (from uiverse.io) *****************/
 
 .button {cursor: pointer;
         position: relative;
@@ -113,7 +115,7 @@ a .fa-chevron-circle-up {color: #F15E00;}
         background-position: center ;
         position: relative;} 
 
-#hero button {background-color: #F15E00;
+#herobutton {background-color: #F15E00;
         color: #BEBCBA;
         opacity: 0.8;
         font-weight: bold;
@@ -126,7 +128,7 @@ a .fa-chevron-circle-up {color: #F15E00;}
         left: 50%;
         transform: translate(-50%,-50%);} 
 
-#hero button:hover{opacity: 1;
+#herobutton:hover{opacity: 1;
         color: white;}
 
 #hero h2 {position: absolute;
@@ -224,7 +226,7 @@ section .fa-youtube-play{font-size: 4em;}
 .col-5 {padding: 3%;}
 
 /***************************************************************************/
-/*                        Card Style (Inside Grid-5)                       */
+/*                   Card Style (Inside Grid-5)(w3Schools)                 */
 /***************************************************************************/
 
 .flip-card {
@@ -295,16 +297,18 @@ footer h3 {border-left: solid 3px #BEBCBA;
 
 .links p:hover {border-bottom: solid 1px #BEBCBA;}
 
-.redes {text-align: center;}
-
-.redes h2 {font-size: 2.2em;}
-
 .credits p{text-decoration:underline;}
 
 footer a {color:white;
         text-decoration: none;}
 
-/*************** redes sociales *******************/
+/*************************** Social Media ******************************/
+
+.redes {text-align: center;
+        padding-bottom: 5%;}
+
+.redes h2 {font-size: 2.2em;}
+
 
 footer .fa {font-size: 1.5em;
         padding: 15px 10px;
@@ -351,7 +355,7 @@ footer .fa-telegram {background-color: #3390EC;}
         .grid-5 {grid-template-columns: 20% 20% 20% 20% 20%;}
         .fa-chevron-circle-up {bottom: 10px; left: 97.5%;}}
 
-/******************* responsive topnav (w3schools) ******************/
+/******************* Responsive Topnav (w3schools) ******************/
 
 
 @media screen and (max-width: 850px) {
