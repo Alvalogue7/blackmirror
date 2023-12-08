@@ -85,35 +85,31 @@ nav {position:sticky;
         z-index: 99;
         opacity: 0.8;}
 
-  
-  .fa-chevron-circle-up {position: fixed;
+.fa-chevron-circle-up {position: fixed;
         bottom: 10px;
         left: 50%;
         transform: translate(-50%,-50%);
         font-size:2.2em !important;
         z-index: 99;}
-  
-  a .fa-chevron-circle-up {color: #F15E00;}
-  
-  /* Add a black background color to the top navigation */
-  .topnav {
-        background-color: #333;
+
+a .fa-chevron-circle-up {color: #F15E00;}
+
+.topnav {
+        background-color: #1B1B1B;
         overflow: hidden;}
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+
+.topnav a {
         float: left;
         display: block;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none; /*** no se subraye e vínculo ***/
+        text-decoration: none; 
         font-size: 1.2em;}
-  
+
   /* Change the color of links on hover */
   .topnav a:hover {
-        background-color: #ddd;
-        color: black;}
+        color: #F15E00;}
   
   
   /* Add an active class to highlight the current page 
@@ -125,7 +121,10 @@ nav {position:sticky;
   .topnav .icon {
         display: none;}
 
-.topnav img{width: 10%;}
+#logo {width:90px;
+        background-color:#F15E00;}
+
+.topnav img{width: 100%;}
 
 /***************************************************************************/
 /*                              HERO SECTION                               */
@@ -170,35 +169,31 @@ nav {position:sticky;
         margin: 15px;} 
 
 .grid-2 {display: grid;
-        grid-template-columns: 100%;} /*** MOBILE FIRST ***/
+        grid-template-columns: 100%;} 
 
 .col-2 {padding: 2%;
         font-size: 1.5em;
         text-align: center;}
 
 section .fa-youtube-play{font-size: 4em;}
+
 .col-2 a {text-decoration: none;
         color: #BEBCBA;}
-
 
 .container {
         position: relative;
         overflow: hidden;
         width: 100%;
-        padding-top: 56.25%; 
-      }
-      
-      /* Then style the iframe to fit in the container div with full height and width */
-   .responsive-iframe {
+        padding-top: 56.25%; }
+
+.responsive-iframe {
         position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
         width: 100%;
-        height: 100%;
-      }
-
+        height: 100%;}
 
 /***************************************************************************/
 /*                        MAPS SECTION (GRID DE 4)                         */
@@ -209,7 +204,7 @@ section .fa-youtube-play{font-size: 4em;}
         margin: 15px;}
 
 .grid-4 {display: grid;
-        grid-template-columns: 100%;} /*** MOBILE FIRST ***/
+        grid-template-columns: 100%;} 
 
 .col-4 {padding: 2%;}
 
@@ -237,8 +232,7 @@ section .fa-youtube-play{font-size: 4em;}
         position: absolute;
         top: 20%;
         left: 50%;
-        transform: translate(-50%, -50%);
-}
+        transform: translate(-50%, -50%);}
 
 /***************************************************************************/
 /*                       DRINKS SECTION (GRID DE 5)                        */
@@ -249,10 +243,9 @@ section .fa-youtube-play{font-size: 4em;}
         margin: 15px;}
 
 .grid-5 {display: grid;
-        grid-template-columns: 50% 50%;} /*** MOBILE FIRST ***/
+        grid-template-columns: 50% 50%;}
 
 .col-5 {padding: 10%;}
-
 
 /***************************************************************************/
 /*                        Card Style (Inside Grid-5)                       */
@@ -277,7 +270,7 @@ section .fa-youtube-play{font-size: 4em;}
         position: absolute;
         width: 100%;
         height: 100%;
-        -webkit-backface-visibility: hidden; /* Safari */
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;}
 
 .flip-card-front {background-color: #1B1B1B;
@@ -302,14 +295,11 @@ section .fa-youtube-play{font-size: 4em;}
 #gallery {padding: 1%;
         margin: 15px;}
 
-
-
-
 /***************************************************************************/
 /*                                   FOOTER                                */
 /***************************************************************************/
 footer {background-color: black;
-        color: white;
+        color: #BEBCBA;
         font-size: 0.7em;
         padding: 1%;}
 
@@ -319,19 +309,22 @@ footer {background-color: black;
 
 footer .col-2{text-align:justify;}
 
-
 footer h3 {border-left: solid 3px #BEBCBA;
         padding-left: 2%;}
 
-.links p{width: 12%;
+.links p{width: 50%;
         padding: 1%;}
 
-.links p:hover {border: solid 1px #BEBCBA;}
-
+.links p:hover {border-bottom: solid 1px #BEBCBA;}
 
 .redes {text-align: center;}
 
 .credits p{text-decoration:underline;}
+
+footer a {color:white;
+        text-decoration: none;}
+
+/*************** redes sociales *******************/
 
 footer .fa {font-size: 1.5em;
         padding: 15px 10px;
@@ -340,11 +333,6 @@ footer .fa {font-size: 1.5em;
         text-decoration: none;
         margin: 5px 2px;
         border-radius: 50%;}
-
-footer a {color:white;
-        text-decoration: none;}
-
-/*************** redes sociales *******************/
 
 footer .fa-facebook {background-color: #3B5998;}
 
