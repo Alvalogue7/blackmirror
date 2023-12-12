@@ -155,6 +155,8 @@ a .fa-chevron-circle-up {color: #F15E00;}
 
 section .fa-youtube-play{font-size: 4em;}
 
+section .fa-youtube-play:hover{color:#FF0000}
+
 .col-2 a {text-decoration: none;
         color: #BEBCBA;}
 
@@ -274,6 +276,41 @@ section .fa-youtube-play{font-size: 4em;}
 #gallery {padding: 1%;
         margin: 15px;}
 
+        .row {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0 4px;
+              }
+              
+              /* Create four equal columns that sits next to each other */
+              .column {
+                flex: 25%;
+                max-width: 25%;
+                padding: 0 4px;
+              }
+              
+              .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+              }
+              
+              /* Responsive layout - makes a two column-layout instead of four columns */
+              @media screen and (max-width: 800px) {
+                .column {
+                  flex: 50%;
+                  max-width: 50%;
+                }
+              }
+              
+              /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+              @media screen and (max-width: 600px) {
+                .column {
+                  flex: 100%;
+                  max-width: 100%;
+                }
+              }
+
 /***************************************************************************/
 /*                                   FOOTER                                */
 /***************************************************************************/
@@ -305,12 +342,12 @@ footer a {color:white;
 /*************************** Social Media ******************************/
 
 .redes {text-align: center;
-        padding-bottom: 5%;}
+        padding-bottom: 15%;}
 
 .redes h2 {font-size: 2.2em;}
 
 
-footer .fa {font-size: 1.5em;
+footer .fa {font-size: 1.2em;
         padding: 15px 10px;
         width:  50px;
         text-align: center;
@@ -343,7 +380,9 @@ footer .fa-telegram {background-color: #3390EC;}
         #hero {height: 110vh;}
         #hero h2 {font-size: 3.2em;} 
         .grid-4 {grid-template-columns: 50% 50%;}
-        .grid-5 {grid-template-columns: 25% 25% 25% 25%;}} 
+        .grid-5 {grid-template-columns: 25% 25% 25% 25%;}
+        footer .fa {font-size: 1.5em;}
+        .redes {padding-bottom: 5%;}} 
 
 @media only screen and (width>900px){ /*** COMPUTER ***/
         #wrapper {width: 90%;}
@@ -353,7 +392,9 @@ footer .fa-telegram {background-color: #3390EC;}
         .grid-2d {grid-template-columns: 50% 50%;}
         .grid-4 {grid-template-columns: 25% 25% 25% 25%;}
         .grid-5 {grid-template-columns: 20% 20% 20% 20% 20%;}
-        .fa-chevron-circle-up {bottom: 10px; left: 97.5%;}}
+        .fa-chevron-circle-up {bottom: 10px; left: 97.5%;}
+        footer .fa {font-size: 1.5em;}
+        .redes {padding-bottom: 4%;}} 
 
 /******************* Responsive Topnav (w3schools) ******************/
 
