@@ -71,15 +71,16 @@ And finally below this I have placed the social networks of Call of Duty and min
 <h3>Fonts</h3>
 <p>For the titles: AgencyFB Black Regular.</p>
 <p>For the body text: Bayformance.</p>
-<h3>Imágenes</h3>
+<h3>Images</h3>
 <p>.....</p>
 <h3>Videos</h3>
-<p>.....</p>
-...................
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <h2 id="snippets">Code snippets</h2>
 <p>I have used the following</p>
 <ul>
-  <li>Navigation bar: from w3Schools "How to" [(poner vínculo)](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)</li>
-  <li>Accordion: ..............</li>
-  <li>..........</li>
+  <li>Navigation bar: from w3Schools "How to" https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
+  <li>Buttons: from uiverse.io. https://uiverse.io/all?search=button</li>
+  <li>Flip Cards: from w3Schools "How to" [https://uiverse.io/all?search=button](https://www.w3schools.com/howto/howto_css_flip_card.asp)</li>
+  <li>Gallery: from w3Schools "How to" "SlideShow Gallery" https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp</li>
 </ul>
