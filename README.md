@@ -29,10 +29,10 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./bm-readme/hero.png" alt="imagen de hero section" style="width:50%">
-<p>He utilizado una imagen de fondo tomada de .... que se adapta fácilmente a diferentes dispositivos....<br>
-Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
-(una breve explicación)</p>
+<img src="./img_readme/hero.png" alt="hero section image" style="width:50%">
+<p>The section is composed by a background image, being responsive.<br>
+On it I have placed the title of the page and a Call of Action button styled using code snippets from uiverse.io and the title of the web page.
+</p>
 
 <h3>Introducción</h3>
 <img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
@@ -47,9 +47,12 @@ Sobre ella he colocado un Call to Action que he estilado a partir de ....<br>
 <h3>Footer</h3>
 <p>breve explicación </p>
 
-<h2 id="estilo">Estilo de la página</h2>
-<h3>Paleta de colores</h3>
-<p>.....</p>
+<h2 id="estilo">Site style</h2>
+<h3>Color Palette</h3>
+<p>#1B1B1B</p>
+<p>#1B1B1B</p>
+<p>#1B1B1B</p>
+<p>#F15E00</p>
 <h3>Tipografías</h3>
 <p>.....</p>
 <h3>Imágenes</h3>
