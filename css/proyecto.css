@@ -115,21 +115,108 @@ a .fa-chevron-circle-up {color: #F15E00;}
         background-position: center ;
         position: relative;} 
 
-#herobutton {background-color: #F15E00;
-        color: #BEBCBA;
-        opacity: 0.8;
-        font-weight: bold;
+#herobutton {font-weight: bold;
         font-family: titulos;
         padding: 5px 10px;
-        border: none;
-        border-radius: 10px;
         position: absolute; 
         top: 60%;
         left: 50%;
         transform: translate(-50%,-50%);} 
 
-#herobutton:hover{opacity: 1;
-        color: white;}
+        #herobutton,
+        #herobutton::after {
+         padding: 16px 20px;
+         font-size: 18px;
+         background: linear-gradient(45deg, transparent 5%, #F15E00 5%);
+         border: 0;
+         color: #fff;
+         letter-spacing: 3px;
+         line-height: 1;
+         box-shadow: 6px 0px 0px #1B1B1B;
+         outline: transparent;
+         position: relative;
+        }
+        
+        #herobutton::after {
+         --slice-0: inset(50% 50% 50% 50%);
+         --slice-1: inset(80% -6px 0 0);
+         --slice-2: inset(50% -6px 30% 0);
+         --slice-3: inset(10% -6px 85% 0);
+         --slice-4: inset(40% -6px 43% 0);
+         --slice-5: inset(80% -6px 5% 0);
+         content: "ARE YOU READY?";
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         background: linear-gradient(45deg, transparent 3%, #1B1B1B 3%, #1B1B1B 5%, #F15E00 5%);
+         text-shadow: -3px -3px 0px #2D1918, 3px 3px 0px #1B1B1B;
+         clip-path: var(--slice-0);
+        }
+        
+        #herobutton:hover::after {
+         animation: 1s glitch;
+         animation-timing-function: steps(2, end);
+        }
+        
+        @keyframes glitch {
+         0% {
+          clip-path: var(--slice-1);
+          transform: translate(-20px, -10px);
+         }
+        
+         10% {
+          clip-path: var(--slice-3);
+          transform: translate(10px, 10px);
+         }
+        
+         20% {
+          clip-path: var(--slice-1);
+          transform: translate(-10px, 10px);
+         }
+        
+         30% {
+          clip-path: var(--slice-3);
+          transform: translate(0px, 5px);
+         }
+        
+         40% {
+          clip-path: var(--slice-2);
+          transform: translate(-5px, 0px);
+         }
+        
+         50% {
+          clip-path: var(--slice-3);
+          transform: translate(5px, 0px);
+         }
+        
+         60% {
+          clip-path: var(--slice-4);
+          transform: translate(5px, 10px);
+         }
+        
+         70% {
+          clip-path: var(--slice-2);
+          transform: translate(-10px, 10px);
+         }
+        
+         80% {
+          clip-path: var(--slice-5);
+          transform: translate(20px, -10px);
+         }
+        
+         90% {
+          clip-path: var(--slice-1);
+          transform: translate(-10px, 0px);
+         }
+        
+         100% {
+          clip-path: var(--slice-1);
+          transform: translate(0);
+         }
+        }
 
 #hero h2 {position: absolute;
         text-align: center;
@@ -215,10 +302,10 @@ section .fa-youtube-play:hover{color:#FF0000}
         transform: translate(-50%, -50%);}
 
 /***************************************************************************/
-/*                       DRINKS SECTION (GRID DE 5)                        */
+/*                        PERKS SECTION (GRID DE 5)                        */
 /***************************************************************************/
 
-#drinks {
+#perks {
         padding: 1%;
         margin: 15px;}
 
@@ -274,42 +361,95 @@ section .fa-youtube-play:hover{color:#FF0000}
 /***************************************************************************/
 
 #gallery {padding: 1%;
-        margin: 15px;}
+        margin: 15px;} 
 
-        .row {
-                display: flex;
-                flex-wrap: wrap;
-                padding: 0 4px;
-              }
-              
-              /* Create four equal columns that sits next to each other */
-              .column {
-                flex: 25%;
-                max-width: 25%;
-                padding: 0 4px;
-              }
-              
-              .column img {
-                margin-top: 8px;
-                vertical-align: middle;
-                width: 100%;
-              }
-              
-              /* Responsive layout - makes a two column-layout instead of four columns */
-              @media screen and (max-width: 800px) {
-                .column {
-                  flex: 50%;
-                  max-width: 50%;
-                }
-              }
-              
-              /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-              @media screen and (max-width: 600px) {
-                .column {
-                  flex: 100%;
-                  max-width: 100%;
-                }
-              }
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container2 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container2 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.container2 .mySlides img {margin-top: 5px;}
+
 
 /***************************************************************************/
 /*                                   FOOTER                                */
@@ -362,8 +502,6 @@ footer .fa-twitter {background-color: #55ACEE;}
 footer .fa-whatsapp {background-color: #25D366;}
 
 footer .fa-instagram {background-image: linear-gradient(to right,#920FFF,#FE116C);}
-
-footer .fa-linkedin {background-color: #0A66C2;}
 
 footer .fa-github {background-color: black;
         border: solid 1px #444;}
