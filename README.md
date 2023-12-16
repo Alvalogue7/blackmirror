@@ -10,12 +10,12 @@
 
 <h2 id="introduccion">Introduction</h2>
 <p>Work done by: Álvaro López Guerrero</p>
-<p>Proyecto de web "from scratch" de 1ª evaluación de Lenguajes de Marcas</p>
+<p>Website proyect "from scratch" of 1st evaluation of "Lenguajes de Marcas"</p>
 <p>December 2023 </p>
 <p>License  CC-BY</p>
 
-<h2 id="motivacion">Motivatiom</h2>
-<p>El tema lo he elegido porque ...</p>
+<h2 id="motivacion">Motivation</h2>
+<p>I have selected this topic because I am a big fan of this game mode of the video game black ops II belonging to the call of duty saga.</p>
 
 <h2 id="estructura">Structure</h2>
 <p>The website is divided into 6 sections:</p>
@@ -34,17 +34,15 @@
 On it I have placed the title of the page and a Call of Action button styled using code snippets from uiverse.io and the title of the web page.
 </p>
 
-<h3>Introducción</h3>
-<img src="
-<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
-<p>He dispuesto en un grid de 2 columnas....</p>
+<h3>History</h3>
+<img src="./img_readme/history.png" alt="history section image" style="width:50%">
+<p>I have arranged in a grid of 2 columns, a brief introduction to the section, and accompanying this in the other column, I have placed a video about the history of the topic of the page, from youtube.</p>
 
-.......
-
-
-
-<p>y aqui pongo <b>lo que quiera</b></p>
-
+<h3>Maps</h3>
+<img src="./img_readme/maps.png" alt="maps section image" style="width:50%">
+<p>In this section I have implemented a grid with 4 columns, where the content is in cards<br>
+Within the cards we can find an image of each map, a brief description of the map and a button with a link to more information from an external page.<br>
+For the button I have used a styling from uiverse.io.</p>
 <h3>Footer</h3>
 <p>breve explicación </p>
 
