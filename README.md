@@ -74,14 +74,13 @@ And finally below this I have placed the social networks of Call of Duty and min
 <p>For the body text: Bayformance.</p>
 
 <h3>Videos</h3>
-<img src="./img_readme/video.png" alt="video" style="width:50%">
-"https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe"
+<a href="https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe"><img src="./img_readme/video.png" alt="video" style="width:50%"><a/>
 
 <h2 id="snippets">Code snippets</h2>
 <p>I have used the following:</p>
 <ul>
   <li>Navigation bar: from w3Schools "How to" "Responsive Topnav" https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
   <li>Buttons: from uiverse.io. https://uiverse.io/all?search=button</li>
-  <li>Flip Cards: from w3Schools "How to" "Flip Cards" [https://uiverse.io/all?search=button](https://www.w3schools.com/howto/howto_css_flip_card.asp)</li>
+  <li>Flip Cards: from w3Schools "How to" "Flip Cards" https://www.w3schools.com/howto/howto_css_flip_card.asp</li>
   <li>Gallery: from w3Schools "How to" "SlideShow Gallery" https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp</li>
 </ul>
