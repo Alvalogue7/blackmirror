@@ -29,12 +29,13 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./img_readme/hero.png" alt="hero section image" style="width:50%">
+<img src="/img_readme/hero.png" alt="hero section image" style="width:50%">
 <p>The section is composed by a background image, being responsive.<br>
 On it I have placed the title of the page and a Call of Action button styled using code snippets from uiverse.io and the title of the web page.
 </p>
 
 <h3>Introducción</h3>
+<img src="
 <img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
 <p>He dispuesto en un grid de 2 columnas....</p>
 
