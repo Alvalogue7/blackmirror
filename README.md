@@ -15,7 +15,7 @@
 <p>License  CC-BY</p>
 
 <h2 id="motivacion">Motivation</h2>
-<p>I have selected this topic because I am a big fan of this game mode of the video game black ops II belonging to the call of duty saga.</p>
+<p>I have selected this topic because I am a big fan of this game mode of the video game black ops II belonging to the Call of Duty saga.</p>
 
 <h2 id="estructura">Structure</h2>
 <p>The website is divided into 6 sections:</p>
@@ -29,7 +29,7 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="[/img_readme/hero.png](https://github.com/Alvalogue7/proyecto/blob/main/img_readme/Hero.png)" alt="hero section image" style="width:50%">
+<img src="./img_readme/Hero.png" alt="hero section image" style="width:50%">
 <p>The section is composed by a background image, being responsive.<br>
 On it I have placed the title of the page and a Call of Action button styled using code snippets from uiverse.io and the title of the web page.
 </p>
@@ -74,13 +74,13 @@ And finally below this I have placed the social networks of Call of Duty and min
 <h3>Images</h3>
 <p>.....</p>
 <h3>Videos</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+"https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe"
 
 <h2 id="snippets">Code snippets</h2>
-<p>I have used the following</p>
+<p>I have used the following:</p>
 <ul>
-  <li>Navigation bar: from w3Schools "How to" https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
+  <li>Navigation bar: from w3Schools "How to" "Responsive Topnav" https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
   <li>Buttons: from uiverse.io. https://uiverse.io/all?search=button</li>
-  <li>Flip Cards: from w3Schools "How to" [https://uiverse.io/all?search=button](https://www.w3schools.com/howto/howto_css_flip_card.asp)</li>
+  <li>Flip Cards: from w3Schools "How to" "Flip Cards" [https://uiverse.io/all?search=button](https://www.w3schools.com/howto/howto_css_flip_card.asp)</li>
   <li>Gallery: from w3Schools "How to" "SlideShow Gallery" https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp</li>
 </ul>
