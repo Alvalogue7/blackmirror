@@ -43,26 +43,43 @@ On it I have placed the title of the page and a Call of Action button styled usi
 <p>In this section I have implemented a grid with 4 columns, where the content is in cards<br>
 Within the cards we can find an image of each map, a brief description of the map and a button with a link to more information from an external page.<br>
 For the button I have used a styling from uiverse.io.</p>
+
+<h3>Perks</h3>
+<img src="./img_readme/maps.png" alt="perks section image" style="width:50%">
+This section is composed of a 5-column grid, where the content is in reversible cards.<br>
+The cards are styled as follows a w3schools tutorial.</p>
+
+<h3>Gallery</h3>
+<img src="./img_readme/maps.png" alt="gallery section image" style="width:50%">
+<p>This section is composed by a slideshow gallery of pictures <br></p>
+
 <h3>Footer</h3>
-<p>breve explicación </p>
+<p>The footer is composed of a grid of 2 columns where we find the credits and the official page of the game<br>
+In the other column the links to text of the page itself.<br>
+And finally below this I have placed the social networks of Call of Duty and mine.</p>
 
 <h2 id="estilo">Site style</h2>
 <h3>Color Palette</h3>
-<p>#1B1B1B</p>
-<p>#1B1B1B</p>
-<p>#1B1B1B</p>
-<p>#F15E00</p>
-<h3>Tipografías</h3>
-<p>.....</p>
+<ul>
+  <li>#1B1B1B</li>  
+  <li>#2D1918</li>
+  <li>#BEBCBA</li>
+  <li>#F15E00</li>
+  <li>#444</li>
+</ul>
+
+<h3>Fonts</h3>
+<p>For the titles: AgencyFB Black Regular.</p>
+<p>For the body text: Bayformance.</p>
 <h3>Imágenes</h3>
 <p>.....</p>
 <h3>Videos</h3>
 <p>.....</p>
 ...................
 <h2 id="snippets">Code snippets</h2>
-<p>He utilizado los siguientes:</p>
+<p>I have used the following</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
+  <li>Navigation bar: from w3Schools "How to" [(poner vínculo)](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)</li>
   <li>Accordion: ..............</li>
   <li>..........</li>
 </ul>
