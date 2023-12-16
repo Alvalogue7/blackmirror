@@ -79,8 +79,8 @@ And finally below this I have placed the social networks of Call of Duty and min
 <h2 id="snippets">Code snippets</h2>
 <p>I have used the following:</p>
 <ul>
-  <li>Navigation bar: from w3Schools "How to" "Responsive Topnav" "https://www.w3schools.com/howto/howto_js_topnav_responsive.asp"</li>
-  <li>Buttons: from uiverse.io. "https://uiverse.io/all?search=button"</li>
-  <li>Flip Cards: from w3Schools "How to" "Flip Cards" "https://www.w3schools.com/howto/howto_css_flip_card.asp"</li>
-  <li>Gallery: from w3Schools "How to" "SlideShow Gallery" "https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp"</li>
+  <li>Navigation bar: from <a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">w3Schools</a> "How to" "Responsive Topnav" "</li>
+  <li>Buttons: from <a href="https://uiverse.io/all?search=button">uiverse.io.</a> </li>
+  <li>Flip Cards: from <a href="https://www.w3schools.com/howto/howto_css_flip_card.asp">w3Schools</a> "How to" "Flip Cards"</li>
+  <li>Gallery: from <a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp">w3Schools</a> "How to" "SlideShow Gallery"</li>
 </ul>
