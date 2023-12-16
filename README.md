@@ -45,7 +45,7 @@ Within the cards we can find an image of each map, a brief description of the ma
 For the button I have used a styling from uiverse.io.</p>
 
 <h3>Perks</h3>
-<img src="./img_readme/maps.png" alt="perks section image" style="width:50%">
+<img src="./img_readme/perks.png" alt="perks section image" style="width:50%">
 This section is composed of a 5-column grid, where the content is in reversible cards.<br>
 The cards are styled as follows a w3schools tutorial.</p>
 
@@ -75,7 +75,7 @@ And finally below this I have placed the social networks of Call of Duty and min
 <h3>Images</h3>
 <p>.....</p>
 <h3>Videos</h3>
-<img src="./img_readme/videp.png" alt="video" style="width:50%">
+<img src="./img_readme/video.png" alt="video" style="width:50%">
 "https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe"
 
 <h2 id="snippets">Code snippets</h2>
