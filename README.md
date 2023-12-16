@@ -50,10 +50,11 @@ This section is composed of a 5-column grid, where the content is in reversible 
 The cards are styled as follows a w3schools tutorial.</p>
 
 <h3>Gallery</h3>
-<img src="./img_readme/maps.png" alt="gallery section image" style="width:50%">
+<img src="./img_readme/gallery.png" alt="gallery section image" style="width:50%">
 <p>This section is composed by a slideshow gallery of pictures <br></p>
 
 <h3>Footer</h3>
+<img src="./img_readme/footer.png" alt="footer section image" style="width:50%">
 <p>The footer is composed of a grid of 2 columns where we find the credits and the official page of the game<br>
 In the other column the links to text of the page itself.<br>
 And finally below this I have placed the social networks of Call of Duty and mine.</p>
@@ -74,6 +75,7 @@ And finally below this I have placed the social networks of Call of Duty and min
 <h3>Images</h3>
 <p>.....</p>
 <h3>Videos</h3>
+<img src="./img_readme/videp.png" alt="video" style="width:50%">
 "https://www.youtube.com/embed/pIPLIYQUfwQ?si=ONvKJGPRza6PbnOe"
 
 <h2 id="snippets">Code snippets</h2>
