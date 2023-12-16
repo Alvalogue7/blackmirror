@@ -9,20 +9,22 @@
 </ul>
 
 <h2 id="introduccion">Introduction</h2>
-<p>Trabajo realizado en clase por: Álvaro López Guerrero</p>
+<p>Work done by: Álvaro López Guerrero</p>
 <p>Proyecto de web "from scratch" de 1ª evaluación de Lenguajes de Marcas</p>
-<p>Diciembre de 2023 </p>
-<p>Licencia CC-BY</p>
+<p>December 2023 </p>
+<p>License  CC-BY</p>
 
-<h2 id="motivacion">Motivación</h2>
+<h2 id="motivacion">Motivatiom</h2>
 <p>El tema lo he elegido porque ...</p>
 
-<h2 id="estructura">Estructura</h2>
-<p>La web está dividida en  X secciones:</p>
+<h2 id="estructura">Structure</h2>
+<p>The website is divided into 6 sections:</p>
 <ul>
   <li>Hero Section</li>  
-  <li>Introducción</li>
-  <li>...</li>
+  <li>History</li>
+  <li>Maps</li>
+  <li>Perks</li>
+  <li>Gallery</li>
   <li>Footer</li>
 </ul>
 
