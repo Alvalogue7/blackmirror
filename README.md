@@ -29,7 +29,7 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="/img_readme/hero.png" alt="hero section image" style="width:50%">
+<img src="[/img_readme/hero.png](https://github.com/Alvalogue7/proyecto/blob/main/img_readme/Hero.png)" alt="hero section image" style="width:50%">
 <p>The section is composed by a background image, being responsive.<br>
 On it I have placed the title of the page and a Call of Action button styled using code snippets from uiverse.io and the title of the web page.
 </p>
